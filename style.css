@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(44, 44, 46);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: grey;
+}
+
+.header {
+  text-align: center;
+  color: white;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.heading {
+  color: white;
+}
+
+.email {
+   size: 17px;
+}
+
+.maintext {
+  size: 20px;
+}
+
